@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+ *{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+@media(max-width:768px){
+  .centerdiv{
+    width: 55%;
+  }
+  .todostyle.fa-times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 15px;
+  }
+  button{
+    min-height: 40px;
+    margin-left: 5px;
+    width: 40px;
+    font-size:50px;
+    color: #ffff;
+  }
+}
+
+h1{
+  padding: 6px 0 6px 0;
+  color :rgba(0,0,0,0.87);
+  min-width: 64px;
+  margin-top: 20px;
+  background-color: khaki;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  background-color: #61dafb;
+}
+.maindiv{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  direction: flex;
+  flex-direction: row;
+}
+
+.centerdiv{
+  /* box-sizing: border-box; */
+  background-color: #ffff;
+  box-shadow: 15px 15px 25px 5px rgba(0,0,0,0.5);
+  width:40%;
+  height:70vh;
+  /* margin: 15%; */
+  margin-left: 400px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+ol{
+  /* margin-top: 30px; */
+}
+ol li{
+  margin-left: 0;
+  list-style: none;
+  text-transform: capitalize;
+  text-align: left;
+  min-height: 40px;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.deleteIcon{
+  height: 80px;
+  width: 75px;
+  border-radius: 50 !important;
+  background-color: #ffff !important;
+  color: red;
+  margin-left: 450px;
+  margin-top: -50px;
+}
+.todostyle.deleteIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    padding: 5px;
+    box-shadow: 15px 15px 15px 5px solid #0000;
+    color: #282c34;
+}
+.todostyle.deleteIcon:hover{
+  color: #0000;
+  background-color: transparent;
+  box-shadow: 15px 15px 15px 5px solid #0000;
+}
+
+.todostyle.deleteIcon:hover.list_style{
+  color:yellow;
+}
+.App-link {
+  color: #61dafb;
+}
+
+input{
+  margin-left: 20px;
+  /* border: none; */
+  outline: none;
+  width: 60%;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.newBtn{
+  height: 60px;
+  width: 55px;
+  border-radius: 50%!important;
+  color: #ffff !important;
+  background-color: lawngreen !important;
+}
+
+.newBtn:hover{
+  background-color: #ffff !important;
+  color: lawngreen !important;
+}
+
+/* .MuiSvgIcon-root{
+  width: 2em !important;
+  height: 2em !important;
+} */
